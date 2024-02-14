@@ -6,3 +6,6 @@
 4. baidu_hc_cls.py 生成给GPT的prompt
 5. gpt3.5_annot.py  调GPT3.5给窝干活
 6. label_extract.py  代码判断提取
+
+
+相关数据都在Data里
