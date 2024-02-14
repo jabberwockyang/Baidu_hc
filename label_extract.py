@@ -25,7 +25,7 @@ def extrat_classification(genetext,json_cls):
     
                 
 
-with open('dep_dis_ques_240206_with_q_c.jsonl', 'r') as f:
+with open('Data/dep_dis_ques_240206_with_q_c.jsonl', 'r') as f:
     lines = f.readlines()
     json_list = [json.loads(line) for line in lines]
 for obj in json_list:

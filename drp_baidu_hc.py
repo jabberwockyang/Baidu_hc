@@ -13,14 +13,13 @@ co.set_argument('--no-sandbox')  # 无沙盒模式
 co.no_imgs(True).mute(True)
 
 current_path = "new_folder"
-
 if not os.path.exists(current_path):
     os.makedirs(current_path)
 
 while True:
     try:
         t0 = time.time()
-        with open('dep_dis_href_240202.jsonl', 'r') as f:
+        with open('Data/dep_dis_href_240202.jsonl', 'r') as f:
             lines = f.readlines()
             json_list = [json.loads(line) for line in lines]
 

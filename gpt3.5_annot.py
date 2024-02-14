@@ -10,7 +10,7 @@ completion = openai.ChatCompletion.create(
         {"role": "user", "content": 'hello'}])
 print(completion.choices[0].message.content)
 
-with open('dep_dis_ques_240206_with_q.json', 'r') as f:
+with open('Data/dep_dis_ques_240206_with_q.json', 'r') as f:
     json_list = json.load(f)
 if os.path.exists('dep_dis_ques_240206_with_q_c.jsonl'):
     with open('dep_dis_ques_240206_with_q_c.jsonl','r') as f2:

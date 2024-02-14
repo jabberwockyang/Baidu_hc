@@ -1,7 +1,7 @@
 import json
 import pandas
 
-with open('dep_dis_ques_240206_with_q.jsonl', 'r') as f:
+with open('Data/dep_dis_ques_240206_with_q.jsonl', 'r') as f:
     lines = f.readlines()
     json_list = [json.loads(line) for line in lines]
 
